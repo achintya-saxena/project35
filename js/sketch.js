@@ -3,11 +3,13 @@ var bg;
 var balloonImg1,balloonImg2,balloonImg3;
 var database;
 
+
+
 function preload() {
 bg=loadImage("images/bg.png");
 balloonImg1=loadImage("images/1.png");
 balloonImg2=loadImage("images/2.png");
-balloonImg3=loadImage("images/3.png")
+balloonImg3=loadImage("images/3.png");
 }
 
 function setup() {
